@@ -1,0 +1,76 @@
+*{
+    
+}
+#signin{
+    margin-left:3px;
+    
+}
+#signup{
+    margin-left:3px;
+    
+}
+
+.carousel-container{
+    margin-top: 64px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-container{
+    border:2px solid black;
+    margin:10px 5px;
+    box-sizing: border-box;
+    width: auto;
+}
+.aside{
+    border:2px solid black;
+    margin:10px 5px;
+    width:17%;
+    float:left;
+}
+.breadCrumb{
+    border:2px solid black;
+    margin:8px 5px 0px 5px;
+    padding: 5px 1px 0px 9px;
+    width:81%;
+    float:left;
+}
+.main{
+    border:2px solid black;
+    margin:0px 5px 10px 5px;
+    width:81%;
+    float:left;
+}
+.medicine{
+    border:2px solid black;
+    margin:10px 5px;
+    width:77%;
+    float:left;
+}
+.medicine div{
+    width: 25%;
+    float:left
+}
+#med-ele{
+    width: 11rem;
+}
+#med-ele div{
+    width:100%;
+    padding:0px 17px;
+}
+.aside-right{
+    border:2px solid black;
+    margin:10px 11px;
+    width:20%;
+    float:left;
+}
+
+
+.footer{
+    clear:both;
+}
+.footer li{
+    float:left;
+    padding:5px 6px;
+    list-style: none;
+}

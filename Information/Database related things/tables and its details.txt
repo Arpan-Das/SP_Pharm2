@@ -1,0 +1,21 @@
+Table Structure we will need to store our DATA ::>
+
+1. Products Information:
+	 (You’ll need standard fields that contain your product information and a unique product_id, probably numeric that you’ll use to establish relationships to items in your shopping cart and completed orders.)
+
+2. Store Categories:
+	 (These categories should contain the product IDs that will be displayed within a particular category.)
+
+3. Shopping Carts:
+	 (you need a unique ID associated with each website visitor, likely your session ID; you can set this when they first visit your website and use this same id to identify the user’s activity across Customer Accounts, Live Chat, Completed Orders, Abandoned Carts, Reviews, etc—even before you have a customer record for them.)
+
+4. Completed Orders:
+	 (This should contain your order summary data, order total, tax rate, amount received, customer id and so on. This would relate back to Customer Accounts using customer_id. It also relates to Order Items by order_id, which should be unique on this table.)
+
+5. Order Items:
+	 (After a transaction is complete you’ll need to move each line item from your shopping cart table into Order Items, as well as creating a single record in Completed Orders. Those should relate to each other by a unique order_id and the products in Order Items should related to Product Information by product_id. You’ll also want a customer_id if this is to connect back to a unique customer account.)
+
+6. Customer Accounts:
+ 	(You could shove all of this information into completed orders but as my company also includes CRM capability it made sense for us to store customer data in a separate table because we have to consider interactions not related to e-commerce; and it’s a lot more logical since one customer may have multiple orders.)
+
+7. We also have many other tables that are related to specific capabilities like Reviews, Customer Q&A, Recommended Products, Live Chat, Feedback, Surveys, etc which may or may not be relevant in your situation.
