@@ -17,7 +17,6 @@
 }
 
 .content-container{
-    border:2px solid black;
     margin:10px 5px;
     box-sizing: border-box;
     width: auto;
@@ -36,33 +35,32 @@
     float:left;
 }
 .main{
-    border:2px solid black;
+    /* border:2px solid black; */
     margin:0px 5px 10px 5px;
     width:81%;
     float:left;
 }
 .medicine{
-    border:2px solid black;
+    /* border:2px solid rgb(228, 23, 23); */
     margin:10px 5px;
     width:77%;
     float:left;
 }
-.medicine div{
-    width: 25%;
-    float:left
-}
+
 #med-ele{
-    width: 11rem;
+    float:left ;
+    width: 24%;
+    border:1px solid rgb(128, 128, 128);
+    margin:-2px 6px 21px 2px;
 }
-#med-ele div{
-    width:100%;
-    padding:0px 17px;
+#med-ele div a{  /*this thing is for the :> add to card button and the other thing present inside the respective div*/
+    margin: 0px 44px;
 }
 .aside-right{
     border:2px solid black;
     margin:10px 11px;
     width:20%;
-    float:left;
+    float:right;
 }
 
 
